@@ -1,0 +1,84 @@
+/* universal styling  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+/* banner section start here  */
+.banner{
+    height: 100vh;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title{
+    color: #272727;
+    font-weight: 800;
+    font-size: 80px;
+    width: 708px;
+    text-align: column;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px ;
+}
+.btn-primary{
+    padding: 20px 43px;
+    background-color: #E55473;
+    border: none;
+    color: white;
+}
+/* featured flower section starts here  */
+.featured-flowers{
+    text-align: center;
+}
+.flowers{
+    display: flex;
+}
+.feature-title{
+    text-align: center;
+}
+.feature-info{
+    text-align:center;
+}
+.flower-img{
+    padding: 20px;
+}
+
+
+/* footer starts here  */
+.footer{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+}
+.colored-part{
+    color: #E55473;
+}
+.footer-description{
+    font-size: x-small;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
