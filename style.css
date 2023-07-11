@@ -86,8 +86,7 @@
 }
 .flower-img{
     padding: 20px;
-    width: 100;
-
+    width: 100%;
 }
 #pink-tulip{
     background-color: pink;
@@ -95,6 +94,7 @@
     width: 464px;
     height: 538px;
     margin: auto;
+    
 }
 #bouquet{
     background-color: rgb(177, 229, 229);
@@ -126,8 +126,7 @@
     width: 1440px;
     height: 320px;
     text-align: center;
-    margin-left: 20%;
-    margin-bottom: 2%;
+    margin: 100px;
 }
 
 /* hot deals section starts here  */
@@ -175,14 +174,15 @@ line-height: 30px;
     flex-direction: center;
     align-items: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
+    gap: 30px;
 }
 .insta-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .insta-info{
     color: rgba(39, 39, 39, 0.60);
