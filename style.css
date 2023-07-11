@@ -47,7 +47,7 @@
 }
 .flowers{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .feature-title{
@@ -69,12 +69,14 @@
     width: 1922px;
     height: 620px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 }
 .hot-deal{
-    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .deal-title{
     color: #272727;
