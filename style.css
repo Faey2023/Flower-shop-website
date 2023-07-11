@@ -6,12 +6,9 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
-/* banner section start here  */
-.banner{
-    height: 100vh;
-    
-}
+/* banner section start here  */  
 .banner-container{
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,8 +17,9 @@
     color: #272727;
     font-weight: 800;
     font-size: 80px;
-    width: 708px;
-    text-align: column;
+    width: 750px;
+    height: 288px;
+    flex-direction: column;
 }
 .banner-img{
     width: 635px;
@@ -40,6 +38,8 @@
     background-color: #E55473;
     border: none;
     color: white;
+    border-radius: 8px;
+    font-size: 20px;
 }
 /* featured flower section starts here  */
 .featured-flowers{
@@ -103,20 +103,49 @@ line-height: 30px;
     justify-content: space-around;
     align-items: center;
 }
+.subscribe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-content{
+    background-image: url(Images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.email{
+    border: none;
+    color: white;
+}
 
 /* footer starts here  */
-.footer{
+.footer-container{
     background-color: #111010;
     color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
     text-align: center;
-    width: 1922px;
-    height: 449px;
+    margin-bottom: 24px;
 }
 .colored-part{
     color: #E55473;
+    
 }
 .footer-description{
-    font-size: x-small;
+    font-size: large;
+    margin-bottom: 32px;
 }
 .copyright{
     color: rgba(255, 255, 255, 0.40);
@@ -124,3 +153,4 @@ line-height: 30px;
     font-size: 16px;
     font-weight: 400;
 }
+/* footer ends here  */
