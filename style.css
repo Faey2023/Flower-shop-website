@@ -64,11 +64,13 @@
 /* featured flower section starts here  */
 .featured-flowers{
     text-align: center;
+    padding: 100px;
 }
 .flowers{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: row;
 }
 .feature-title{
     text-align: center;
@@ -82,6 +84,37 @@
 }
 .flower-img{
     padding: 20px;
+    width: 100;
+
+}
+#pink-tulip{
+    background-color: pink;
+    border-radius: 300px 300px 0 0;
+    width: 464px;
+    height: 538px;
+}
+#bouquet{
+    background-color: rgb(177, 229, 229);
+    border-radius: 300px 300px 0 0;
+    width: 464px;
+    height: 538px;
+}
+#yellow-tulip{
+    background-color: rgb(221, 221, 117);
+    border-radius: 300px 300px 0 0;
+    width: 464px;
+    height: 538px;
+}
+h6{
+    padding: 100px;
+    font-size: x-large;
+}
+
+/* service section starts here  */
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* hot deals section starts here  */
@@ -117,24 +150,42 @@ line-height: 30px;
 /* insta section starts here  */
 .insta-section{
     text-align: center;
-}
+}      
 .insta-images{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-info{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.suscribe-section{
+    text-align: center;
 }
 .subscribe-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .subscribe-content{
     background-image: url(Images/Rectangle\ 9.png);
     width: 1440px;
     height: 450px;
-    align-items: center;
     text-align: center;
-    justify-content: center;
 }
 .email{
     border: none;
