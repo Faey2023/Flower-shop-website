@@ -3,9 +3,32 @@
     margin: 0px;
     padding: 0px;
     font-family: Lato;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
+/* nav bar starts here  */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #111010;
+    font-size: xx-large;
+    padding: 10px;
+}
+.nav-title{
+    color: white;
+}
+.menus{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    color: white;
+    gap: 15px;
+    font-style: italic;
+}
+.menu-names:hover{
+    color: #E55473;
+}
+
 /* banner section start here  */  
 .banner-container{
     height: 100vh;
