@@ -3,16 +3,13 @@
     margin: 0px;
     padding: 0px;
     font-family: Lato;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
-
 /* banner section start here  */
 .banner{
     height: 100vh;
+    
 }
 .banner-container{
     display: flex;
@@ -50,9 +47,15 @@
 }
 .flowers{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .feature-title{
     text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
 }
 .feature-info{
     text-align:center;
@@ -61,6 +64,43 @@
     padding: 20px;
 }
 
+/* hot deals section starts here  */
+.deals{
+    width: 1922px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+}
+.hot-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.deal-info{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* insta section starts here  */
+.insta-section{
+    text-align: center;
+}
+.insta-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* footer starts here  */
 .footer{
